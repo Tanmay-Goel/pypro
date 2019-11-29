@@ -1,4 +1,5 @@
-user_tags=['a','b','c']
+user_tags=['a','b']
+prevval=""
 item_tags=['p','q','r']
 mydict={a:{p:1},b:{q:2, r:4}}
 tag='r'
@@ -14,6 +15,8 @@ if tag in item_tags:
                         y+=1
             else:
                 j[tag]=1
+                
+     prevval=tag           
                             
         
             
